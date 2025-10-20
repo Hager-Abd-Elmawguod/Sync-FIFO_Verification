@@ -1,11 +1,11 @@
 # Sync-FIFO_Verification
-🧠 Synchronous FIFO Verification — SystemVerilog Project
+#🧠 Synchronous FIFO Verification — SystemVerilog Project
 📘 Overview
 
 This project implements and verifies a Synchronous FIFO (First-In-First-Out) design using SystemVerilog.
 The goal is to ensure correct data flow, synchronization, and behavior under all operational conditions — including full, empty, almost full, and almost empty states — using coverage-driven and assertion-based verification techniques.
 
-🧩 Verification Environment
+#🧩 Verification Environment
 
 The verification environment was built from scratch using SystemVerilog and structured into multiple components:
 
@@ -21,7 +21,7 @@ Assertions (SVA): Check for protocol violations (overflow, underflow, reset, and
 
 Functional Coverage: Captures coverage of all FIFO states and transitions (wr_en, rd_en, full, empty, almost_full, almost_empty).
 
-🐞 Bug Detection and Debugging
+#🐞 Bug Detection and Debugging
 
 During simulation and waveform analysis in QuestaSim, the following design issues were detected and corrected:
 
@@ -33,7 +33,7 @@ Uninitialized reset signals
 
 Incorrect almost full logic
 
-📊 Coverage Results
+#📊 Coverage Results
 
 All coverage goals were achieved through random and directed testing:
 
