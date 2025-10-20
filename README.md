@@ -1,4 +1,3 @@
-# Sync-FIFO_Verification
 🧠 Synchronous FIFO Verification — SystemVerilog Project
 📘 Overview
 
@@ -43,14 +42,11 @@ Branch Coverage	100% ✅
 Toggle Coverage	100% ✅
 Functional Coverage	100% ✅
 Assertion Coverage	100% ✅
+
 ⚙️ Tools & Methodology
-
 Language: SystemVerilog (RTL & Testbench)
-
 Simulator: QuestaSim
-
 Methodology: Constrained-Random & Coverage-Driven Verification
-
 Design Type: Synchronous FIFO
 
 💡 Key Learnings
